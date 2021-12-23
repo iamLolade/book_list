@@ -1,5 +1,11 @@
-const books = document.querySelectorAll("#book-list li .name");
+const btns = document.querySelectorAll("#book-list .delete");
 
-books.forEach(book => {
-    console.log(book.textContent)
+Array.from(btns).forEach(btn => {
+    btn.addEventListener("click", (e) => {
+
+        const li = e.target.parentElement;
+
+        li.parentNode.removeChild(li);
+
+    })
 })

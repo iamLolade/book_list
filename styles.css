@@ -70,6 +70,8 @@ h1, h2{
     border-radius: 4px;
     cursor: pointer;
     color: white;
+    width: 13px;
+    height: 1px;
 }
 
 .delete:hover{
