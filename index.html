@@ -9,6 +9,21 @@
     <div id="wrapper">
       <header>
         <div id="page-banner">
+          <div id="tabbed-content">
+            <ul class="tabs">
+              <li data-target="#about">About</li>
+              <li data-target="#contact">Contact</li>
+            </ul>
+            <div class="panel" id="about">
+              <p>Book List Demo</p>
+              <p>This is a book list demo application. It utilizes DOM manipulation for it's functionality.</p>
+              <p>Users can add, search and remove books from the list</p>
+            </div>
+            <div class="panel" id="contact">
+              <p>Connect with me;</p>
+              
+            </div>
+          </div>
           <h1 class="title">Pearl</h1>
           <p>Books for MERN Stack Engineers</p>
           <form id="search-books">
@@ -17,7 +32,7 @@
         </div>
       </header>
       <div id="book-list">
-        <h2 class="title">Books to Read</h2>
+        <h2 class="title">Recommended Read</h2>
         <ul>
           <li>
             <span class="name">Name of the Wind</span>
@@ -46,6 +61,12 @@
         </ul>
       </div>
       <form id="add-book">
+        <div>
+            <input type="checkbox" id="hide"/>
+            <label for="hide">Hide books</label>
+        </div>
+        
+        <br>
         <input type="text" placeholder="Add a book..." />
         <button>+</button>
       </form>
