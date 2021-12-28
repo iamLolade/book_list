@@ -1,7 +1,10 @@
 body{
-    font-family: Tahoma;
+    font-family: 'Courier New', Courier, monospace;
     color: #444;
     letter-spacing: 2px;
+    font-weight: bold;
+    background: url("https://images.hdqwalls.com/wallpapers/journey-goes-on-ny.jpg") no-repeat fixed;
+    background-size: cover;
 }
 
 h1, h2{
@@ -18,6 +21,8 @@ h1, h2{
     padding: 0 0 20px;
     overflow: hidden;
     border: 1px solid lightgray;
+    background: rgba(228, 220, 220, 0.904);
+    opacity: 0.95;
 }
 
 #page-banner{
@@ -30,6 +35,7 @@ h1, h2{
     width: 100%;
     text-align: center;
     margin: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #page-banner input{
@@ -60,12 +66,12 @@ h1, h2{
 }
 
 #book-list li:hover{
-    border-color: #9361bf;
+    border-color: #3ba16e;
 }
 
 .delete{
     float: right;
-    background: #9361bf;
+    background: rgb(83, 79, 79);
     padding: 6px;
     border-radius: 4px;
     cursor: pointer;
@@ -75,7 +81,7 @@ h1, h2{
 }
 
 .delete:hover{
-    background: #333;
+    background: rgb(230, 6, 6);
 }
 
 #add-book{
@@ -96,8 +102,8 @@ h1, h2{
 }
 
 #add-book button{
-    border: 1px solid #9361bf;
-    background: #9361bf;
+    border: 1px solid #3ba16e;
+    background: #3ba16e;
     padding: 10px 20px;
     font-size: 16px;
     display: inline-block;
@@ -135,9 +141,9 @@ h1, h2{
     margin-right: 10px;
 }
 
-#about {
+/* #about {
     text-align: left;
-}
+} */
 
 #tabbed-content .tab{
     display: none;
