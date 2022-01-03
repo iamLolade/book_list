@@ -36,7 +36,9 @@ document.addEventListener("DOMContentLoaded", () => {
         //append to document
         li.appendChild(bookName);
         li.appendChild(deleteBtn);
-        list.appendChild(li)
+        list.appendChild(li);
+        
+        value = ""
     })
 
     //hide books
@@ -67,5 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 book.style.display = "none";
             }
         })
+
     })
 })
